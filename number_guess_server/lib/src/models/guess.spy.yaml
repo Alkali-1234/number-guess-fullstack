@@ -1,0 +1,6 @@
+# * Guess Class
+
+### The guess sent by the client
+class: Guess
+fields:
+    number: int

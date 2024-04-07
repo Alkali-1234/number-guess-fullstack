@@ -1,0 +1,7 @@
+### Custom Specific Messages that may be sent
+class: Message
+fields:
+    message: String
+
+#* All Currently Used Messages:
+#'stop_stream' --> Stops the stream

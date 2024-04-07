@@ -1,0 +1,7 @@
+type: server
+
+client_package_path: ../number_guess_client
+
+modules:
+  serverpod_auth:
+    nickname: auth

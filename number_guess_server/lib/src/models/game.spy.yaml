@@ -1,0 +1,6 @@
+### Game that is played by the user
+class: Game
+fields:
+    timestamp: DateTime
+    number: int
+    guesses: List<Guess>

@@ -1,0 +1,7 @@
+### User Data
+class: User
+table: users
+fields:
+    uid: int
+    score: int
+    gamesHistory: List<Game>

@@ -1,0 +1,4 @@
+### The guess result sent by the server
+class: GuessResult
+fields:
+    result: GuessResultTypes

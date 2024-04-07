@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+  postgres:
+    image: postgres:14.1
+    ports:
+      - '8090:5432'
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_DB: number_guess
+      POSTGRES_PASSWORD: "5ZtpJzGVirVREr6wPOlcp3DuhWBl2QdW"
+    volumes:
+      - number_guess_data:/var/lib/postgresql/data
+  redis:
+    image: redis:6.2.6
+    ports:
+      - '8091:6379'
+    command: redis-server --requirepass "ONo8mEVZct5W36__NvAB1lzThQC4o7D1"
+    environment:
+      - REDIS_REPLICATION_MODE=master
+volumes:
+  number_guess_data:

@@ -1,0 +1,8 @@
+# Guess Result sent by the server
+
+### Possible results of a guess
+enum: GuessResultTypes
+values:
+    - Correct
+    - Higher
+    - Lower
